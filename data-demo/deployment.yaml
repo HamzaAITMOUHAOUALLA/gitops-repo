@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: data-demo-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: data-demo
@@ -17,5 +17,6 @@ spec:
         image: hamzaaitmouhaoualla/data-demo-api:v9.0.2
         ports:
         - containerPort: 8080
+
 
 
