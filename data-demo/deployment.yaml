@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: data-demo
-        image: hamzaaitmouhaoualla/data-demo-api:v9.0.8
+        image: harbor.mycompany.com/microservices/data-demo-api:v9.0.9
         ports:
         - containerPort: 8080
 
